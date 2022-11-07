@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .remove {
+            display: none;
+        }
+
+        .coin {
+            height: 50px;
+            width: 50px
+        }
+    </style>
+</head>
+<body>
+    <div id="mainForm">
+        <label>How Many?:</label><br>
+        <input type="number" id="quantity" name="number"><br>
+        <select id="moneyType" name="moneyType">
+            <option id="quarter">Quarter</option>
+            <option id="dime">Dime</option>
+            <option id="nickel">Nickel</option>
+            <option id="penny">Penny</option>
+        </select>
+        <button id ='button' type="submit">Submit</button>
+    </form>
+    <div id="display"></div>
+    <script src="./money.js"></script>
+</body>
+</html>

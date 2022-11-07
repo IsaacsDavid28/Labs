@@ -4,29 +4,26 @@ function main(){
 
 let growMe = document.querySelector("#grow-me");
 
-growMe.classList.add("big")
+growMe.classList.add("big");
 
 let shrinkMe = document.querySelector("#shrink-me");
 
-shrinkMe.classList.remove("big")
+shrinkMe.classList.remove("big");
 
-let list = document.querySelectorAll("li")
+let list = document.querySelector('ol')
 
+let print = list.innerHTML
 
-// need list items written out
+console.log(print)
 
+let link = document.querySelector('.link');
 
-document.getElementsByClassName("link").innerHTML = "somewhere";
-document.getElementsByClassName("link").setAttribute ("href","https://www.example.com");
-// need nowhere to be replace by somwhere
+link.setAttribute("href", "https://www.example.com");
+link.innerHTML = "somewhere";
 
-// for(let tag of linkChange){
-//     tag.innerHTML `<a href="https://www.example.com">somewhere`
-//     //tag.setAttribute("href","https://www.example.com")
-// }
+let userName = document.getElementById('name').value;
+let header = document.querySelector('h1')
 
-let nameChange
-
-
+header.textContent = `Welcome ${userName}!`
 
 }
