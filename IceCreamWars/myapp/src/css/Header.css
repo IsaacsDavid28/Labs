@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.Header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #0e3c7e;
+    font-family: 'Caveat', cursive;
+    box-shadow: 2px 4px rgb(219, 219, 219);
+}
