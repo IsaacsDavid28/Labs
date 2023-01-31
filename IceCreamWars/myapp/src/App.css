@@ -6,3 +6,10 @@
 .main > * {
   flex: 1;
 }
+
+.ads {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
